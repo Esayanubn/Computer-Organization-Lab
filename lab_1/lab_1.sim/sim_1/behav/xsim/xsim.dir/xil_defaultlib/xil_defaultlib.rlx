@@ -1,0 +1,18 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ALU.v,1681046847,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/BranchDecisionMaking.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,ALU,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/BranchDecisionMaking.v,1680957887,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ControlUnit.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,BranchDecisionMaking,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ControlUnit.v,1681222152,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataExt.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,ControlUnit,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataExt.v,1681018656,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataRam.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,DataExt,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataRam.v,1681038260,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataSeg.v,,DataRam,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataSeg.v,1681221737,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/InstrSeg.v,,DataSeg,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/InstrSeg.v,1681221788,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/InstructionRam.v,,InstrSeg,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/InstructionRam.v,1680955173,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/NPC_Generator.v,,InstructionRam,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/NPC_Generator.v,1681038578,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/RV32Core.v,,NPC_Generator,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,1677568018,verilog,,,,,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/RV32Core.v,1681226566,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/RegisterFile.v,,RV32Core,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/RegisterFile.v,1680958169,verilog,,D:/Computer_Org_Lab/lab1_src/2_Simulation/testBench.v,,RegisterFile,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/2_Simulation/testBench.v,1681221877,verilog,,,,testBench,,,,,,,,
+D:/Computer_Org_Lab/lab_1/lab_1.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,

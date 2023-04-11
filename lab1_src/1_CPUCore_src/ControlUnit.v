@@ -153,7 +153,7 @@ module ControlUnit(
     always@(*) begin
         case(Op)
             7'b0110011:     AluSrc2 <= 2'b00;
-            7'b0010011:     AluSrc2 <= (Fn3 == 3'b101 || Fn3 == 3'b001)? 2'b01 : AluSrc2D <= 2'b10;
+            7'b0010011:     AluSrc2 <= (Fn3 == 3'b101 || Fn3 == 3'b001)? 2'b01 : 2'b10;
             7'b0110111:     AluSrc2 <= 2'b10;
             7'b0010111:     AluSrc2 <= 2'b10;
             7'b0000011:     AluSrc2 <= 2'b10;

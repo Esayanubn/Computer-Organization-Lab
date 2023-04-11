@@ -21,10 +21,10 @@ module DataSeg(
 
     wire [31:0] RD_raw;
     DataRam DataRamInst (
-        .clk    (),                      //请补全
-        .wea    (),                      //请补全  不能用LoadedBytesSelect，此时这还是上一个上升沿的地址的末2位
-        .addra  (),                      //请补全
-        .dina   (),                      //请补全
+        .clk    ( clk           ),       //请补全
+        .wea    ( WE            ),       //请补全  不能用LoadedBytesSelect，此时这还是上一个上升沿的地址的末2位
+        .addra  ( A[31:2]       ),       //请补全
+        .dina   ( WD            ),       //请补全
         .douta  ( RD_raw         ),
         .web    ( WE2            ),
         .addrb  ( A2[31:2]       ),

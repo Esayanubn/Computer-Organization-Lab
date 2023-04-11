@@ -20,8 +20,8 @@ module InstrSeg(
     
     wire [31:0] RD_raw;
     InstructionRam InstructionRamInst (
-         .clk    (),                        //�벹ȫ
-         .addra  (),                        //�벹ȫ
+         .clk    ( clk        ),                        //�벹ȫ
+         .addra  ( A[31:2]   ),                      //�벹ȫ
          .douta  ( RD_raw     ),
          .web    ( |WE2       ),
          .addrb  ( A2[31:2]   ),

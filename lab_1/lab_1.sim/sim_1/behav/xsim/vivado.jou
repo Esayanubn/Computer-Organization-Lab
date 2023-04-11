@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Apr 11 23:49:41 2023
+# Process ID: 28852
+# Current directory: D:/Computer_Org_Lab/lab_1/lab_1.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35540 D:\Computer_Org_Lab\lab_1\lab_1.sim\sim_1\behav\xsim\testBench_behav.wdb
+# Log file: D:/Computer_Org_Lab/lab_1/lab_1.sim/sim_1/behav/xsim/vivado.log
+# Journal file: D:/Computer_Org_Lab/lab_1/lab_1.sim/sim_1/behav/xsim\vivado.jou
+# Running On: LAPTOP-TDMESBCT, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17041 MB
+#-----------------------------------------------------------
+start_gui
+open_wave_database {D:\Computer_Org_Lab\lab_1\lab_1.sim\sim_1\behav\xsim\testBench_behav.wdb}
+close_sim
