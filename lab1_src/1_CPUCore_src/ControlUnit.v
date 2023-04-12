@@ -50,21 +50,33 @@ module ControlUnit(
         endcase
     end
     
-    //RegWrite,MemToReg
+    //RegWrite
     always @(*) begin
-        if (Op == 7'b0000011) begin
+        case (Op) 
+            7'b0110011, 7'b0010011, 7'b0110111, 7'b0010111, 7'b1101111, 7'b1100111:
+                 RegWrite <= `LW;
+            7'b0100011, 7'b1100011:     
+                RegWrite <= `NOREGWRITE; 
+            7'b0000011: begin
+                case(Fn3)
+                    3'b000:     RegWrite <= `LB;
+                    3'b001:     RegWrite <= `LH;
+                    3'b010:     RegWrite <= `LW;
+                    3'b100:     RegWrite <= `LBU;
+                    3'b101:     RegWrite <= `LHU;
+                    default:    RegWrite <= `NOREGWRITE;
+                endcase    
+            end   
+            default:    RegWrite <= `NOREGWRITE;             
+        endcase
+    end
+    
+    //MemToReg
+    always @(*) begin
+        if (Op == 7'b0000011)  
             MemToReg <= 1'b1;
-            case(Fn3)
-                3'b000:     RegWrite <= `LB;
-                3'b001:     RegWrite <= `LH;
-                3'b010:     RegWrite <= `LW;
-                3'b100:     RegWrite <= `LBU;
-                3'b101:     RegWrite <= `LHU;
-                default:    RegWrite <= `NOREGWRITE;
-            endcase                     
-        end
-        else 
-            RegWrite <= `NOREGWRITE;
+        else
+            MemToReg <= 1'b0;
     end
     
     //MemWrite

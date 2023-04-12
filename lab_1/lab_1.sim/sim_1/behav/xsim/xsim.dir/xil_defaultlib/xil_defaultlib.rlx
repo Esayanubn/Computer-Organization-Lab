@@ -4,7 +4,7 @@ Oct 19 2021
 03:16:22
 D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ALU.v,1681046847,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/BranchDecisionMaking.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,ALU,,,,,,,,
 D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/BranchDecisionMaking.v,1680957887,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ControlUnit.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,BranchDecisionMaking,,,,,,,,
-D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ControlUnit.v,1681222152,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataExt.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,ControlUnit,,,,,,,,
+D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/ControlUnit.v,1681231938,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataExt.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,ControlUnit,,,,,,,,
 D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataExt.v,1681018656,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataRam.v,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/Parameters.v,DataExt,,,,,,,,
 D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataRam.v,1681038260,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataSeg.v,,DataRam,,,,,,,,
 D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/DataSeg.v,1681221737,verilog,,D:/Computer_Org_Lab/lab1_src/1_CPUCore_src/InstrSeg.v,,DataSeg,,,,,,,,
